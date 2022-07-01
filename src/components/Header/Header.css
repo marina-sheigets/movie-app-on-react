@@ -1,0 +1,22 @@
+.header{
+    cursor: pointer;
+    width:100%;
+    background-color:#071a2f;
+    color:#ffffff;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    box-shadow: 0 1px 5px black;
+    font-size: 5vw;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+@media (max-width:1000px) {
+    .header{
+        font-size:6.4vw;
+    }
+}
